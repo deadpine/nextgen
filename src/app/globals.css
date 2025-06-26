@@ -23,7 +23,7 @@
   --color-green-100: #F6FECD;
   --color-green-500: #AD9332;
   --color-green-600: #91834E;
-  
+
   --color-gray-300: #979B96;
   --color-gray-500: #616B63;
   --color-gray-600: #4D554F;
@@ -41,5 +41,32 @@ h2 {
   font-weight: 400;
   font-size: 2rem;
   line-height: 1;
-}
+@layer base {
+  html {
+    @apply antialiased;
+  }
+  h1 {
+    @apply text-[2.5rem]/11 font-normal tracking-tight text-gray-900;
+  }
+  h2 {
+    @apply text-4xl font-normal;
+  }
+  h3 {
+    @apply text-[2rem]/10 font-normal;
+  }
+  h4 {
+    @apply text-[1.75rem] font-normal;
+  }
+  p {
+    @apply text-base text-gray-900;
+  }
+  i {
 
+  }
+  a {
+    @apply text-blue-600;
+  }
+  section {
+    @apply w-full px-4;
+  }
+}

@@ -9,15 +9,17 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center sm:items-start">
       
-      <section className="w-full max-w-7xl mx-auto py-40">
-        <p>Onboarding</p>
-        <p>→ Unlock</p>
-        <h1>
-          Comienza una nueva etapa: equipo de primos como next gen
-        </h1>
-        <p>
-          El contexto puede ser impulso o ancla. Por eso, vamos a generar experiencias en torno a tres niveles: decisiones, acuerdos y liderazgos.
-        </p>
+      <section className="max-w-7xl mx-auto py-60">
+        <div className="pb-4">
+          <p>Onboarding</p>
+          <p>→ Unlock</p>
+          <h1 className="py-10">
+            próxima etapa:<br/>
+            equipo de primos como 
+            <span className="pl-2 underline decoration-3 underline-offset-3">next gen</span>
+          </h1>
+        </div>
+        
       </section>
 
       <section className="w-full py-24 bg-[#F6FECD]">
@@ -30,12 +32,19 @@ export default function Home() {
             className="h-auto"
           />
           <div className="col-span-2">
-            <p>¿Qué proponemos?</p>
-            <h4>Experiencias de aprendizaje diseñadas a medida</h4>
-            <p>¿Para qué?</p>
-            <h4>para tomar decisiones conscientes</h4>
-            <h4>para construir identidad en contexto</h4>
-            <h4>para potenciar vínculos basados en retos compartidos</h4>
+            <p className="text-green-600">¿Qué proponemos?</p>
+            <h3>experiencias de aprendizaje diseñadas a medida</h3>
+            <br/>
+            <p className="text-green-600">¿Para qué?</p>
+            <h3>
+              <i className="pr-2 font-extralight text-gray-600">para</i>
+              tomar decisiones conscientes</h3>
+            <h3>
+              <i className="pr-2 font-extralight text-gray-600">para</i>
+              construir identidad en contexto</h3>
+            <h3>
+              <i className="pr-2 font-extralight text-gray-600">para</i>
+              potenciar vínculos basados en retos compartidos</h3>
           </div>
         </div>
       </section>
@@ -49,7 +58,7 @@ export default function Home() {
               <Tag text="anclaje en desafíos reales" />
               <Tag text="material curado disponible 24/7" />
               <Tag text="espacios virtuales" />
-              <Tag text="encuentros presenciales" />
+              <Tag text="encuentros presenciales" className="bg-red-500"/>
             </div>
           </div>
           <Card

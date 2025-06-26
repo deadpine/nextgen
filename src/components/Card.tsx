@@ -14,7 +14,7 @@ export default function Card({ title, image, description, participants }: CardPr
       
       <div>
         <Image src="/images/arrow-down.svg" alt="Arrow down" width={20} height={20} className="mb-2" />
-        <h2 className="text-lg font-semibold mb-2">{title}</h2>
+        <h2>{title}</h2>
       </div>
 
       <div className="w-full min-h-50 flex flex-col items-center justify-center relative">
