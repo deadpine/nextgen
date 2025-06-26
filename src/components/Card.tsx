@@ -10,12 +10,12 @@ interface CardProps {
 
 export default function Card({ title, image, description, participants }: CardProps) {
   return (
-    <div className="overflow-hidden w-full flex flex-col gap-1 py-6 border-t border-gray-200">
+    <div className="overflow-hidden w-full flex flex-col gap-1 pt-6 border-t border-gray-200">
       
-      <Image src="/images/arrow-down.svg" alt="Arrow down" width={20} height={20} />
+      <Image src="/images/ic-arrow-down.svg" alt="Arrow down" width={20} height={20} />
       <h2>{title}</h2>
 
-      <div className="w-full min-h-60 flex flex-col items-center justify-center relative">
+      <div className="w-full min-h-64 flex flex-col items-center justify-center relative">
         <Image 
           src={image} 
           alt={image}  
