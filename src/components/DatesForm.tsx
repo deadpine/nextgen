@@ -30,41 +30,38 @@ export default function DatesForm() {
   }
 
   return (
-    <div className="w-full space-y-4 rounded-3xl p-6 bg-[#F2EEE1]">
+    <div className="w-full flex flex-col space-y-3 rounded-3xl p-6 bg-[#F2EEE1]">
       <h4>Coordinemos fechas:</h4>
       {!submitted ? (
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <div>
-            <label htmlFor="name" className="block mb-1 font-medium text-sm text-gray-700">
-              Tu nombre
-            </label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              required
-              className="w-full border rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-black"
-              placeholder="Nombre"
-            />
-          </div>
-
-          <div>
-            <label htmlFor="description" className="block mb-1 font-medium text-sm text-gray-700">
-              ¿Qué fechas ya sabés que van a ser complicadas? 
-            </label>
-            <textarea
-              id="description"
-              name="description"
-              rows={4}
-              required
-              className="w-full border rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-black"
-              placeholder="Ej: del 10 al 20 de octubre"
-            />
-          </div>
+        <form onSubmit={handleSubmit} className="space-y-5 flex flex-col grow">
+        
+          <label htmlFor="nombre" className="block mb-2 text-gray-900">
+            Tu nombre
+          </label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            required
+            className="w-full bg-cream-100 rounded-lg px-4 py-2 focus:outline-none focus:ring-1 focus:ring-gray-300/50"
+            placeholder="Nombre"
+          />
+        
+          <label htmlFor="fechas" className="block mb-2 text-gray-900">
+            ¿Qué fechas ya sabés que van a ser complicadas?
+          </label>
+          <textarea
+            id="fechas"
+            name="fechas"
+            rows={4}
+            required
+            className="w-full grow bg-cream-100 rounded-lg px-4 py-2 focus:outline-none focus:ring-1 focus:ring-gray-300/50"
+            placeholder="Ej: del 10 al 20 de octubre"
+          />
 
           <button
             type="submit"
-            className="bg-black text-white font-medium px-6 py-2 rounded hover:bg-gray-800 transition"
+            className="w-full bg-black cursor-pointer text-white font-medium px-6 py-2 rounded-lg hover:bg-gray-700 transition"
           >
             Enviar
           </button>
