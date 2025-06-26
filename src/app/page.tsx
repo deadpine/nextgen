@@ -58,7 +58,7 @@ export default function Home() {
               <Tag text="anclaje en desafíos reales" />
               <Tag text="material curado disponible 24/7" />
               <Tag text="espacios virtuales" />
-              <Tag text="encuentros presenciales" className="bg-red-500"/>
+              <Tag text="encuentros presenciales"/>
             </div>
           </div>
           <Card
