@@ -15,8 +15,14 @@ export default function Card({ title, image, description }: CardProps) {
         <h2 className="text-lg font-semibold mb-2">{title}</h2>
       </div>
 
-      <div className="w-full h-60 flex justify-center relative">
-        <Image src={image} alt={image} fill className="max-w-20 h-auto" />
+      <div className="w-full min-h-50 flex flex-col items-center justify-center relative">
+        <Image 
+          src={image} 
+          alt={image}  
+          width={120} 
+          height={0} 
+          className="h-auto"
+        />
       </div>
       <p className="text-gray-600 text-sm">{description}</p>
     </div>

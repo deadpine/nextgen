@@ -7,6 +7,17 @@ export default function Home() {
     <main className="flex flex-col items-center sm:items-start">
       
       <section className="w-full max-w-7xl mx-auto py-40">
+        <p>Onboarding</p>
+        <p>→ Unlock</p>
+        <h1>
+          Comienza una nueva etapa: equipo de primos como next gen
+        </h1>
+        <p>
+        El contexto puede ser impulso o ancla. Por eso, vamos a generar experiencias en torno a tres niveles: decisiones, acuerdos y liderazgos.
+        </p>
+      </section>
+      
+      <section className="w-full max-w-7xl mx-auto py-40">
         <div className="flex gap-6">
           <div className="w-full">
             <p>¿Cómo?</p>
@@ -14,12 +25,12 @@ export default function Home() {
           </div>
           <Card
             title="Bootcamps"
-            image="/images/rock-1.png"
+            image="/images/bootcamps.png"
             description="Entrenamientos para activar habilidades en torno a la negociación, la gestión patrimonial y la gobernanza. "
           />
           <Card
             title="Skill labs"
-            image="/images/rock-1.png"
+            image="/images/skill-labs.png"
             description="Espacios para romper esquemas, desafiar perspectivas, provocar ideas y ganar herramientas."
           />
         </div>
@@ -34,17 +45,17 @@ export default function Home() {
         <div className="flex gap-6">
           <Card
             title="Herramientas"
-            image="/images/rock-1.png"
+            image="/images/herramientas.png"
             description="Contenido personalizado, anclado en desafíos reales, para leer contextos y decidir cómo y cuándo involucrarse."
           />
           <Card
             title="Experiencias"
-            image="/images/rock-1.png"
+            image="/images/experiencias.png"
             description="Diseñadas por referentes para despertar miradas, preguntas y curiosidad que generen movimiento."
           />
           <Card
             title="Pertenencia"
-            image="/images/rock-1.png"
+            image="/images/pertenencia.png"
             description="Espacios de aprendizaje compartidos para potenciar el equipo de primos y generar comunidad con pares."
           />
         </div>
