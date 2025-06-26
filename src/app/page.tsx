@@ -24,7 +24,7 @@ export default function Home() {
           alt="Arrow down" 
           width={500} 
           height={0} 
-          className="w-130 max-w-fill h-auto ml-auto"
+          className="w-100 max-w-fill h-auto"
         />
       </section>
 
@@ -157,9 +157,9 @@ export default function Home() {
               className="w-100 max-w-fill h-auto mix-blend-multiply"
             />
           </div>
-
-          <p>Tomar decisiones también implica saber negociar: con otros, con uno mismo, y con el contexto.</p>
-          
+          <p>
+            Tomar decisiones también implica saber negociar: con otros, con uno mismo, y con el contexto.
+          </p>
           <div className="space-y-2">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
