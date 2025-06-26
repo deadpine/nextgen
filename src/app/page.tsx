@@ -19,32 +19,37 @@ export default function Home() {
             <span className="pl-2 underline decoration-3 underline-offset-3">next gen</span>
           </h1>
         </div>
-        
       </section>
 
-      <section className="w-full py-24 bg-[#F6FECD]">
-        <div className='w-full max-w-7xl mx-auto grid grid-cols-3 gap-6'>
+      <section className="py-40 bg-[#F6FECD]">
+        <div className='max-w-7xl mx-auto grid grid-cols-3 gap-6 items-center'>
           <Image 
             src="/images/arbol.png" 
             alt="Arrow down" 
             width={290} 
             height={0} 
-            className="h-auto"
+            className="h-auto mx-12"
           />
-          <div className="col-span-2">
-            <p className="text-green-600">¿Qué proponemos?</p>
-            <h3>experiencias de aprendizaje diseñadas a medida</h3>
-            
-            <p className="text-green-600">¿Para qué?</p>
-            <h3>
-              <i className="pr-2 font-light text-gray-500">para</i>
-              tomar decisiones conscientes</h3>
-            <h3>
-              <i className="pr-2 font-light text-gray-500">para</i>
-              construir identidad en contexto</h3>
-            <h3>
-              <i className="pr-2 font-light text-gray-500">para</i>
-              potenciar vínculos basados en retos compartidos</h3>
+          <div className="col-span-2 flex flex-col gap-12">
+            <div>
+              <p className="text-green-600 pb-3">¿Qué proponemos?</p>
+              <h3>experiencias de aprendizaje diseñadas a medida</h3>
+            </div>
+            <div>
+              <p className="text-green-600 pb-3">¿Para qué?</p>
+              <h3>
+                <i className="pr-2 font-light text-gray-500">para</i>
+                tomar decisiones conscientes
+              </h3>
+              <h3>
+                <i className="pr-2 font-light text-gray-500">para</i>
+                construir identidad en contexto
+              </h3>
+              <h3>
+                <i className="pr-2 font-light text-gray-500">para</i>
+                potenciar vínculos basados en retos compartidos
+              </h3>
+            </div>
           </div>
         </div>
       </section>
