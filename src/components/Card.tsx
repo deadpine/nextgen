@@ -10,12 +10,10 @@ interface CardProps {
 
 export default function Card({ title, image, description, participants }: CardProps) {
   return (
-    <div className="overflow-hidden w-full flex flex-col gap-6 py-6 border-t border-gray-500">
+    <div className="overflow-hidden w-full flex flex-col gap-1 py-6 border-t border-gray-200">
       
-      <div>
-        <Image src="/images/arrow-down.svg" alt="Arrow down" width={20} height={20} className="mb-2" />
-        <h2>{title}</h2>
-      </div>
+      <Image src="/images/arrow-down.svg" alt="Arrow down" width={20} height={20} />
+      <h2>{title}</h2>
 
       <div className="w-full min-h-50 flex flex-col items-center justify-center relative">
         <Image 
@@ -26,11 +24,11 @@ export default function Card({ title, image, description, participants }: CardPr
           className="h-auto"
         />
       </div>
-      <p className="text-sm">{description}</p>
+      <p>{description}</p>
       {participants && (
-        <div className="flex items-center gap-2 text-sm">
+        <div className="flex items-center gap-2 text-green-500">
           <Users className="w-3.5 h-3.5" />
-          <span>{participants}</span>
+          <p className="text-green-500">{participants}</p>
         </div>
       )}
     </div>
