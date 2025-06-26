@@ -1,5 +1,6 @@
 import Card from "@/components/Card";
 import Divider from "@/components/Divider";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -57,6 +58,18 @@ export default function Home() {
             image="/images/pertenencia.png"
             description="Espacios de aprendizaje compartidos para potenciar el equipo de primos y generar comunidad con pares."
           />
+        </div>
+        <div className='grid grid-cols-3 gap-6 pt-40'>
+          <Image 
+            src="/images/circles.png"
+            alt="concentric circles illustration"  
+            width={240} 
+            height={0} 
+            className="h-auto"
+          />
+          <h3 className="col-span-2">
+            gestión patrimonial / adaptabilidad / comunicación asertiva / construcción de acuerdos / roles de directorio / conciencia negociación / emocional / creatividad / gestión riesgos / empatía / escucha activa / humildad cognitiva / gobernanza / liderazgo colaborativo / propósito y creación de valor / mentalidad infinita / gestión de la incertidumbre / diseño de portfolio / pensamiento sistémico / elección asesores / mandatos de inversión / objetivos financieros / estructura family office / manejo de expectativas
+          </h3>
         </div>
       </section>
 
