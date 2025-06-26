@@ -54,7 +54,7 @@ export default function Home() {
         </div>
       </section>
       
-      <section className="w-full max-w-7xl mx-auto py-40">
+      <section className="w-full max-w-7xl mx-auto py-50">
         <div className="flex gap-6">
           <div className="w-full flex flex-col justify-between">
             <p>¿Cómo?</p>
@@ -85,7 +85,7 @@ export default function Home() {
         quote="[ Lo importante no es saber todo, sino desarrollar las herramientas para crecer en cada rol que elijamos habitar ]"
       />
 
-      <section className="w-full max-w-7xl mx-auto py-40">
+      <section className="w-full max-w-7xl mx-auto py-50">
         <p>¿Qué van a encontrar?</p>
         <div className="flex gap-6">
           <Card

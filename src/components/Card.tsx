@@ -15,7 +15,7 @@ export default function Card({ title, image, description, participants }: CardPr
       <Image src="/images/arrow-down.svg" alt="Arrow down" width={20} height={20} />
       <h2>{title}</h2>
 
-      <div className="w-full min-h-50 flex flex-col items-center justify-center relative">
+      <div className="w-full min-h-60 flex flex-col items-center justify-center relative">
         <Image 
           src={image} 
           alt={image}  
@@ -26,7 +26,7 @@ export default function Card({ title, image, description, participants }: CardPr
       </div>
       <p>{description}</p>
       {participants && (
-        <div className="flex items-center gap-2 text-green-500">
+        <div className="flex items-center gap-2 text-green-500 pt-3">
           <Users className="w-3.5 h-3.5" />
           <p className="text-green-500">{participants}</p>
         </div>
