@@ -59,7 +59,7 @@ export default function Home() {
             description="Espacios de aprendizaje compartidos para potenciar el equipo de primos y generar comunidad con pares."
           />
         </div>
-        <div className='grid grid-cols-3 gap-6 pt-40'>
+        <div className="grid grid-cols-3 gap-6 pt-40">
           <Image 
             src="/images/circles.png"
             alt="concentric circles illustration"  
@@ -76,6 +76,25 @@ export default function Home() {
       <Divider 
         quote="[Cuando las ideas se cruzan con miradas distintas, el aprendizaje se vuelve real y aparece el valor]"
       />
+
+      <section className="w-full max-w-7xl mx-auto py-40 grid grid-cols-3 gap-6">
+        
+        <div className="">
+          <p>Estamos diseñando la primera experiencia → </p>
+          <p>Más adelante les vamos a compartir más información</p>
+        </div>
+        <div className="border border-gray-500 rounded-3xl p-6">
+          <h3>[Bootcamp #1] → Gestión Patrimonial</h3>
+          <p>Tomar decisiones también implica saber negociar: con otros, con uno mismo, y con el contexto.</p>
+          <p>Septiembre - Octubre</p>
+          <p>3 encuentros: 1 presencial + 2 virtuales</p>
+        </div>
+        <div className="bg-gray-200 rounded-3xl p-6">
+          <h4>Coordinemos fechas:</h4>
+          
+        </div>
+      </section>
+      
     </main>
   );
 }
