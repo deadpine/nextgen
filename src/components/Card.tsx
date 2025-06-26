@@ -21,7 +21,7 @@ export default function Card({ title, image, description, participants }: CardPr
           alt={image}  
           width={120} 
           height={0} 
-          className="h-auto"
+          className="h-auto mix-blend-multiply"
         />
       </div>
       <p>{description}</p>

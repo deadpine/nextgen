@@ -28,7 +28,7 @@ export default function Home() {
             alt="Arrow down" 
             width={270} 
             height={0} 
-            className="h-auto mx-12"
+            className="h-auto mx-12 mix-blend-multiply"
           />
           <div className="col-span-2 space-y-12">
             <div>
@@ -147,7 +147,7 @@ export default function Home() {
               alt="alt"
               width={120} 
               height={0} 
-              className="h-auto"
+              className="h-auto mix-blend-multiply"
             />
           </div>
 
