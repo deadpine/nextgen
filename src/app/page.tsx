@@ -1,6 +1,6 @@
 import Card from "@/components/Card";
 import Divider from "@/components/Divider";
-import { Calendar, Users } from "lucide-react"
+import { Calendar, Pin } from "lucide-react"
 import Image from "next/image";
 import DatesForm from "@/components/DatesForm";
 import Tag from "@/components/Tag";
@@ -26,11 +26,11 @@ export default function Home() {
           <Image 
             src="/images/arbol.png" 
             alt="Arrow down" 
-            width={290} 
+            width={270} 
             height={0} 
             className="h-auto mx-12"
           />
-          <div className="col-span-2 flex flex-col gap-12">
+          <div className="col-span-2 space-y-12">
             <div>
               <p className="text-green-600 pb-3">¿Qué proponemos?</p>
               <h3>experiencias de aprendizaje diseñadas a medida</h3>
@@ -82,6 +82,7 @@ export default function Home() {
       </section>
 
       <Divider 
+        bgColor="bg-cream-300"
         quote="[ Lo importante no es saber todo, sino desarrollar las herramientas para crecer en cada rol que elijamos habitar ]"
       />
 
@@ -123,6 +124,7 @@ export default function Home() {
       </section>
 
       <Divider 
+        bgColor="bg-green-100"
         quote="[Cuando las ideas se cruzan con miradas distintas, el aprendizaje se vuelve real y aparece el valor]"
       />
 
@@ -133,19 +135,35 @@ export default function Home() {
           <p>Estamos diseñando la primera experiencia → </p>
           <p>Más adelante les vamos a compartir más información</p>
         </div>
-        <div className="border border-gray-500 rounded-3xl p-6">
-          <h3>[Bootcamp #1] → Gestión Patrimonial</h3>
+
+        <div className="border border-gray-500 rounded-3xl p-6 flex flex-col gap-4">
+          <h3>
+            [Bootcamp #1] <br/>
+            → Gestión Patrimonial
+          </h3>
+          <div className="w-full min-h-40 flex flex-col items-center justify-center relative">
+            <Image 
+              src="/images/arbol.png" 
+              alt="alt"
+              width={120} 
+              height={0} 
+              className="h-auto"
+            />
+          </div>
+
           <p>Tomar decisiones también implica saber negociar: con otros, con uno mismo, y con el contexto.</p>
-          <p>Septiembre - Octubre</p>
-          <p>3 encuentros: 1 presencial + 2 virtuales</p>
-          <div className="flex items-center gap-2">
-            <Calendar className="w-4 h-4" />
-            <span>Septiembre - Octubre</span>
+          
+          <div className="space-y-2">
+            <div className="flex items-center gap-2">
+              <Calendar className="w-4 h-4" />
+              <p className="text-gray-700">Septiembre - Octubre</p>
+            </div>
+            <div className="flex items-center gap-2">
+              <Pin className="w-4 h-4" />
+              <p className="text-gray-700">3 encuentros: 1 presencial + 2 virtuales</p>
+            </div>
           </div>
-          <div className="flex items-center gap-2">
-            <Users className="w-4 h-4" />
-            <span>3 encuentros: 1 presencial + 2 virtuales</span>
-          </div>
+          
         </div>
         <DatesForm />
       </section>
