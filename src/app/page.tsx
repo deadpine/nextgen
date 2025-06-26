@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center sm:items-start bg-cream-100 space-y-10">
       
-      <section className="flex flex-col md:flex-row items-center">
+      <section className="flex flex-col md:flex-row gap-6 items-center">
         <div className="pb-4">
           <p>Onboarding</p>
           <p>→ Unlock</p>
@@ -28,8 +28,8 @@ export default function Home() {
         />
       </section>
 
-      <div className="w-full py-32 bg-green-100">
-        <div className='max-w-7xl mx-auto grid grid-cols-3 gap-6 items-center'>
+      <div className="w-full py-32 px-5 bg-green-100">
+        <div className='max-w-7xl mx-auto grid md:grid-cols-3 gap-6 items-center'>
           <Image 
             src="/images/arbol.png" 
             alt="Arrow down" 
@@ -62,7 +62,7 @@ export default function Home() {
       </div>
       
       <section>
-        <div className="flex gap-6">
+        <div className="flex flex-col md:flex-row  gap-6">
           <div className="w-full flex flex-col justify-between">
             <p>¿Cómo?</p>
             <p>Mediante dos formatos complementarios:</p>
@@ -95,7 +95,7 @@ export default function Home() {
 
       <section>
         <p>¿Qué van a encontrar?</p>
-        <div className="flex gap-6">
+        <div className="flex flex-col md:flex-row  gap-6">
           <Card
             title="Herramientas"
             image="/images/herramientas.png"
@@ -112,7 +112,7 @@ export default function Home() {
             description="Espacios de aprendizaje compartidos para potenciar el equipo de primos y generar comunidad con pares."
           />
         </div>
-        <div className="grid grid-cols-3 gap-6 pt-40">
+        <div className="grid md:grid-cols-3 gap-6 pt-40">
           <div>
             <Tag text="Habilidades" />
             <Tag text="Herramientas" />
@@ -135,9 +135,9 @@ export default function Home() {
         quote="[Cuando las ideas se cruzan con miradas distintas, el aprendizaje se vuelve real y aparece el valor]"
       />
 
-      <section className="w-full max-w-7xl mx-auto grid grid-cols-3 gap-6">
+      <section className="grid md:grid-cols-3 gap-6">
         
-        <div className="">
+        <div>
           <Tag text="¿Y ahora qué?" />
           <p>Estamos diseñando la primera experiencia → </p>
           <p>Más adelante les vamos a compartir más información</p>
@@ -148,13 +148,13 @@ export default function Home() {
             [Bootcamp #1] <br/>
             → Gestión Patrimonial
           </h3>
-          <div className="w-full min-h-40 flex flex-col items-center justify-center relative">
+          <div className="max-w-fill min-h-40 flex flex-col items-center justify-center relative">
             <Image 
               src="/images/arbol.png" 
               alt="alt"
               width={120} 
               height={0} 
-              className="h-auto mix-blend-multiply"
+              className="w-100 max-w-fill h-auto mix-blend-multiply"
             />
           </div>
 
@@ -170,7 +170,6 @@ export default function Home() {
               <p className="text-gray-700">3 encuentros: 1 presencial + 2 virtuales</p>
             </div>
           </div>
-          
         </div>
         <DatesForm />
       </section>
