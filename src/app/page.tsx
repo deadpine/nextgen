@@ -1,6 +1,5 @@
 import Card from "@/components/Card";
 import Divider from "@/components/Divider";
-import Image from "next/image";
 
 export default function Home() {
   return (
