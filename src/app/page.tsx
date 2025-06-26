@@ -7,9 +7,9 @@ import Tag from "@/components/Tag";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center sm:items-start bg-cream-100">
+    <main className="flex flex-col items-center sm:items-start bg-cream-100 space-y-10">
       
-      <section className="max-w-7xl mx-auto py-60">
+      <section className="flex flex-col md:flex-row items-center">
         <div className="pb-4">
           <p>Onboarding</p>
           <p>→ Unlock</p>
@@ -19,9 +19,16 @@ export default function Home() {
             <span className="pl-2 underline decoration-3 underline-offset-3">next gen</span>
           </h1>
         </div>
+        <Image 
+          src="/images/hero.png" 
+          alt="Arrow down" 
+          width={500} 
+          height={0} 
+          className="w-130 max-w-fill h-auto ml-auto"
+        />
       </section>
 
-      <section className="py-40 bg-[#F6FECD]">
+      <div className="w-full py-32 bg-green-100">
         <div className='max-w-7xl mx-auto grid grid-cols-3 gap-6 items-center'>
           <Image 
             src="/images/arbol.png" 
@@ -52,9 +59,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </div>
       
-      <section className="w-full max-w-7xl mx-auto py-50">
+      <section>
         <div className="flex gap-6">
           <div className="w-full flex flex-col justify-between">
             <p>¿Cómo?</p>
@@ -86,7 +93,7 @@ export default function Home() {
         quote="[ Lo importante no es saber todo, sino desarrollar las herramientas para crecer en cada rol que elijamos habitar ]"
       />
 
-      <section className="w-full max-w-7xl mx-auto py-50">
+      <section>
         <p>¿Qué van a encontrar?</p>
         <div className="flex gap-6">
           <Card
@@ -128,7 +135,7 @@ export default function Home() {
         quote="[Cuando las ideas se cruzan con miradas distintas, el aprendizaje se vuelve real y aparece el valor]"
       />
 
-      <section className="w-full max-w-7xl mx-auto py-40 grid grid-cols-3 gap-6">
+      <section className="w-full max-w-7xl mx-auto grid grid-cols-3 gap-6">
         
         <div className="">
           <Tag text="¿Y ahora qué?" />
@@ -137,7 +144,7 @@ export default function Home() {
         </div>
 
         <div className="border border-gray-500 rounded-3xl p-6 flex flex-col gap-4">
-          <h3>
+          <h3 className="leading-none">
             [Bootcamp #1] <br/>
             → Gestión Patrimonial
           </h3>
