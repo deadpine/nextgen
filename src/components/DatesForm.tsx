@@ -11,7 +11,7 @@ export default function DatesForm() {
     const form = e.target as HTMLFormElement
     const formData = new FormData(form)
 
-    fetch('https://formsubmit.co/ajax/formsubmit@deadpine.xyz', {
+    fetch('https://formsubmit.co/ajax/ckenny@puertoasis.com', {
       method: 'POST',
       headers: {
         Accept: 'application/json',
