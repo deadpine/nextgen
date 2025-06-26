@@ -2,6 +2,7 @@ import Card from "@/components/Card";
 import Divider from "@/components/Divider";
 import { Calendar, Users } from "lucide-react"
 import Image from "next/image";
+import DatesForm from "@/components/DatesForm";
 
 export default function Home() {
   return (
@@ -120,10 +121,7 @@ export default function Home() {
             <span>3 encuentros: 1 presencial + 2 virtuales</span>
           </div>
         </div>
-        <div className="bg-gray-200 rounded-3xl p-6">
-          <h4>Coordinemos fechas:</h4>
-          
-        </div>
+        <DatesForm />
       </section>
       
     </main>
