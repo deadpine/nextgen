@@ -1,5 +1,6 @@
 import Card from "@/components/Card";
 import Divider from "@/components/Divider";
+import { Calendar, Users } from "lucide-react"
 import Image from "next/image";
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
           Comienza una nueva etapa: equipo de primos como next gen
         </h1>
         <p>
-        El contexto puede ser impulso o ancla. Por eso, vamos a generar experiencias en torno a tres niveles: decisiones, acuerdos y liderazgos.
+          El contexto puede ser impulso o ancla. Por eso, vamos a generar experiencias en torno a tres niveles: decisiones, acuerdos y liderazgos.
         </p>
       </section>
       
@@ -27,11 +28,13 @@ export default function Home() {
             title="Bootcamps"
             image="/images/bootcamps.png"
             description="Entrenamientos para activar habilidades en torno a la negociación, la gestión patrimonial y la gobernanza. "
+            participants="Equipo de primos"
           />
           <Card
             title="Skill labs"
             image="/images/skill-labs.png"
             description="Espacios para romper esquemas, desafiar perspectivas, provocar ideas y ganar herramientas."
+            participants="Equipo de primos + Invitados"
           />
         </div>
       </section>
@@ -88,6 +91,14 @@ export default function Home() {
           <p>Tomar decisiones también implica saber negociar: con otros, con uno mismo, y con el contexto.</p>
           <p>Septiembre - Octubre</p>
           <p>3 encuentros: 1 presencial + 2 virtuales</p>
+          <div className="flex items-center gap-2">
+            <Calendar className="w-4 h-4" />
+            <span>Septiembre - Octubre</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <Users className="w-4 h-4" />
+            <span>3 encuentros: 1 presencial + 2 virtuales</span>
+          </div>
         </div>
         <div className="bg-gray-200 rounded-3xl p-6">
           <h4>Coordinemos fechas:</h4>

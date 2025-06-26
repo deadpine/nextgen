@@ -1,12 +1,14 @@
 import Image from 'next/image';
+import { Users } from "lucide-react"
 
 interface CardProps {
   title: string;
   image: string;
   description: string;
+  participants?: string;
 }
 
-export default function Card({ title, image, description }: CardProps) {
+export default function Card({ title, image, description, participants }: CardProps) {
   return (
     <div className="overflow-hidden w-full flex flex-col gap-6 py-6 border-t border-gray-500">
       
@@ -24,7 +26,13 @@ export default function Card({ title, image, description }: CardProps) {
           className="h-auto"
         />
       </div>
-      <p className="text-gray-600 text-sm">{description}</p>
+      <p className="text-sm">{description}</p>
+      {participants && (
+        <div className="flex items-center gap-2 text-sm">
+          <Users className="w-3.5 h-3.5" />
+          <span>{participants}</span>
+        </div>
+      )}
     </div>
   );
 } 
