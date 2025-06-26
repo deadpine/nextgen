@@ -3,6 +3,7 @@ import Divider from "@/components/Divider";
 import { Calendar, Users } from "lucide-react"
 import Image from "next/image";
 import DatesForm from "@/components/DatesForm";
+import Tag from "@/components/Tag";
 
 export default function Home() {
   return (
@@ -41,9 +42,15 @@ export default function Home() {
       
       <section className="w-full max-w-7xl mx-auto py-40">
         <div className="flex gap-6">
-          <div className="w-full">
+          <div className="w-full flex flex-col justify-between">
             <p>¿Cómo?</p>
             <p>Mediante dos formatos complementarios:</p>
+            <div className="flex flex-col justify-end grow">
+              <Tag text="anclaje en desafíos reales" />
+              <Tag text="material curado disponible 24/7" />
+              <Tag text="espacios virtuales" />
+              <Tag text="encuentros presenciales" />
+            </div>
           </div>
           <Card
             title="Bootcamps"
@@ -84,13 +91,17 @@ export default function Home() {
           />
         </div>
         <div className="grid grid-cols-3 gap-6 pt-40">
-          <Image 
-            src="/images/circles.png"
-            alt="concentric circles illustration"  
-            width={240} 
-            height={0} 
-            className="h-auto"
-          />
+          <div>
+            <Tag text="Habilidades" />
+            <Tag text="Herramientas" />
+            <Image 
+              src="/images/circles.png"
+              alt="concentric circles illustration"  
+              width={240} 
+              height={0} 
+              className="h-auto"
+            />
+          </div>
           <h3 className="col-span-2">
             gestión patrimonial / adaptabilidad / comunicación asertiva / construcción de acuerdos / roles de directorio / conciencia negociación / emocional / creatividad / gestión riesgos / empatía / escucha activa / humildad cognitiva / gobernanza / liderazgo colaborativo / propósito y creación de valor / mentalidad infinita / gestión de la incertidumbre / diseño de portfolio / pensamiento sistémico / elección asesores / mandatos de inversión / objetivos financieros / estructura family office / manejo de expectativas
           </h3>
@@ -104,6 +115,7 @@ export default function Home() {
       <section className="w-full max-w-7xl mx-auto py-40 grid grid-cols-3 gap-6">
         
         <div className="">
+          <Tag text="¿Y ahora qué?" />
           <p>Estamos diseñando la primera experiencia → </p>
           <p>Más adelante les vamos a compartir más información</p>
         </div>
