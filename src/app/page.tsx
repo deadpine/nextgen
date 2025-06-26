@@ -17,6 +17,26 @@ export default function Home() {
           El contexto puede ser impulso o ancla. Por eso, vamos a generar experiencias en torno a tres niveles: decisiones, acuerdos y liderazgos.
         </p>
       </section>
+
+      <section className="w-full py-24 bg-[#F6FECD]">
+        <div className='w-full max-w-7xl mx-auto grid grid-cols-3 gap-6'>
+          <Image 
+            src="/images/arbol.png" 
+            alt="Arrow down" 
+            width={290} 
+            height={0} 
+            className="h-auto"
+          />
+          <div className="col-span-2">
+            <p>¿Qué proponemos?</p>
+            <h4>Experiencias de aprendizaje diseñadas a medida</h4>
+            <p>¿Para qué?</p>
+            <h4>para tomar decisiones conscientes</h4>
+            <h4>para construir identidad en contexto</h4>
+            <h4>para potenciar vínculos basados en retos compartidos</h4>
+          </div>
+        </div>
+      </section>
       
       <section className="w-full max-w-7xl mx-auto py-40">
         <div className="flex gap-6">
