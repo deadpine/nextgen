@@ -48,7 +48,7 @@
   h4 {
     @apply text-[1.75rem] font-normal;
   }
-  p {
+  p, label {
     @apply text-[0.9rem]/5 text-gray-900;
   }
   a {
