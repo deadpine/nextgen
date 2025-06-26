@@ -7,7 +7,7 @@ import Tag from "@/components/Tag";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center sm:items-start">
+    <main className="flex flex-col items-center sm:items-start bg-cream-100">
       
       <section className="max-w-7xl mx-auto py-60">
         <div className="pb-4">
@@ -34,16 +34,16 @@ export default function Home() {
           <div className="col-span-2">
             <p className="text-green-600">¿Qué proponemos?</p>
             <h3>experiencias de aprendizaje diseñadas a medida</h3>
-            <br/>
+            
             <p className="text-green-600">¿Para qué?</p>
             <h3>
-              <i className="pr-2 font-extralight text-gray-600">para</i>
+              <i className="pr-2 font-light text-gray-500">para</i>
               tomar decisiones conscientes</h3>
             <h3>
-              <i className="pr-2 font-extralight text-gray-600">para</i>
+              <i className="pr-2 font-light text-gray-500">para</i>
               construir identidad en contexto</h3>
             <h3>
-              <i className="pr-2 font-extralight text-gray-600">para</i>
+              <i className="pr-2 font-light text-gray-500">para</i>
               potenciar vínculos basados en retos compartidos</h3>
           </div>
         </div>
@@ -64,13 +64,13 @@ export default function Home() {
           <Card
             title="Bootcamps"
             image="/images/bootcamps.png"
-            description="Entrenamientos para activar habilidades en torno a la negociación, la gestión patrimonial y la gobernanza. "
+            description="Para seguir profundizando en lo compartido y activar habilidades en torno a cómo gestionarlo"
             participants="Equipo de primos"
           />
           <Card
             title="Skill labs"
             image="/images/skill-labs.png"
-            description="Espacios para romper esquemas, desafiar perspectivas, provocar ideas y ganar herramientas."
+            description="Para romper esquemas, desafiar perspectivas, provocar ideas y ganar herramientas"
             participants="Equipo de primos + Invitados"
           />
         </div>
