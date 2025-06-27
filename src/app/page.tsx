@@ -114,7 +114,7 @@ export default function Home() {
 
       <Divider 
         bgColor="bg-cream-300"
-        quote="[ Lo importante no es saber todo, sino desarrollar las herramientas para crecer en cada rol que elijamos habitar ]"
+        quote="[Lo importante no es saber todo, sino desarrollar las herramientas para crecer en cada rol que elijamos habitar]"
       />
 
       <section>
