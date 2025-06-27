@@ -36,14 +36,21 @@ export default function Home() {
             alt="Arrow down" 
             width={270} 
             height={0} 
-            className="h-auto mx-12 mix-blend-multiply"
+            className="h-auto mix-blend-multiply hidden md:block"
           />
-          <div className="col-span-2 space-y-12">
-            <div>
+          <div className="col-span-2 space-y-12 flex flex-col items-center">
+            <div className="w-full pr-4 md:pr-0">
               <p className="text-green-600 pb-3">¿Qué proponemos?</p>
               <h3>experiencias de aprendizaje diseñadas a medida</h3>
             </div>
-            <div>
+            <Image 
+              src="/images/arbol.png" 
+              alt="tronco de un arbol" 
+              width={270} 
+              height={0} 
+              className="max-w-[14rem] pb-5 h-auto mix-blend-multiply block md:hidden"
+            />
+            <div className="w-full">
               <p className="text-green-600 pb-3">¿Para qué?</p>
               <Para text="tomar decisiones conscientes" />
               <Para text="construir identidad en contexto" />
