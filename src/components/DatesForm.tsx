@@ -53,7 +53,7 @@ export default function DatesForm() {
           <textarea
             id="fechas"
             name="fechas"
-            rows={4}
+            rows={5}
             required
             className="w-full grow bg-cream-100 rounded-lg px-4 py-2 focus:outline-none focus:ring-1 focus:ring-gray-300/50"
             placeholder="Ej: del 10 al 20 de octubre"

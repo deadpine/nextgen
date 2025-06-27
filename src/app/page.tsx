@@ -67,9 +67,11 @@ export default function Home() {
       <section>
         <div className="flex flex-col md:flex-row gap-12 md:gap-6">
           <div className="w-full flex flex-col justify-between">
-            <p>¿Cómo?</p>
-            <p>Mediante dos formatos complementarios:</p>
-            <div className="flex flex-col justify-end grow">
+            <p className="text-gray-500 pb-4">
+              ¿Cómo? <br/>
+              Mediante dos formatos complementarios:
+            </p>
+            <div className="hidden md:flex flex-col justify-end grow">
               <Tag 
                 text="anclaje en desafíos reales"
                 color="bg-green-500 text-white" 
@@ -105,6 +107,28 @@ export default function Home() {
             participants="Equipo de primos + Invitados"
           />
         </div>
+        <div className="flex flex-col items-center pt-22 md:hidden">
+          <Tag 
+            text="anclaje en desafíos reales"
+            color="bg-green-500 text-white" 
+            rotate="left"
+          />
+          <Tag 
+            text="material curado disponible 24/7"
+            color="bg-green-100" 
+            rotate="2deg"
+          />
+          <Tag 
+            text="espacios virtuales"
+            color="bg-cream-100 text-green-500 border border-green-500" 
+            rotate="left"
+          />
+          <Tag 
+            text="encuentros presenciales"
+            color="bg-red-500 text-white" 
+            rotate="1deg"
+          />
+        </div>
       </section>
 
       <Divider 
@@ -133,11 +157,10 @@ export default function Home() {
           />
         </div>
         <div className="grid md:grid-cols-3 gap-6 pt-40">
-          <div className="w-full h-full pr-10 flex flex-col">
+          <div className="w-full h-full pl-8 pr-12 pt-4 flex flex-col justify-center">
             <Tag
               text="Habilidades"
-              rotate="left"
-              className="z-10"
+              className="z-10 ml-3 -rotate-5"
             />          
             <Image
               src="/images/circles.png"
@@ -150,13 +173,13 @@ export default function Home() {
               text="Herramientas"
               color="bg-green-100"
               rotate="right"
-              className="z-10 ml-auto mr-12"
+              className="z-10 ml-auto mr-8"
             />
           </div>
-          <div className="col-span-2 border-t border-gray-200">
-            <h3>
-              gestión patrimonial / adaptabilidad / comunicación asertiva / construcción de acuerdos / roles de directorio / conciencia negociación / emocional / creatividad / gestión riesgos / empatía / escucha activa / humildad cognitiva / gobernanza / liderazgo colaborativo / propósito y creación de valor / mentalidad infinita / gestión de la incertidumbre / diseño de portfolio / pensamiento sistémico / elección asesores / mandatos de inversión / objetivos financieros / estructura family office / manejo de expectativas
-            </h3>
+          <div className="col-span-2 border-t border-gray-200 pt-8">
+            <h4>
+            gestión patrimonial / adaptabilidad / comunicación asertiva / construcción de acuerdos / roles de directorio / negociación / conciencia emocional / creatividad / gestión riesgos / empatía / escucha activa / humildad cognitiva / gobernanza / antifragilidad / liderazgo colaborativo / propósito y creación de valor / mentalidad infinita / gestión de la incertidumbre / sesgos / diseño de portfolio / pensamiento sistémico / elección asesores / objetivos financieros / estructura family office / estrategia / manejo de expectativas / storytelling / incentivos e intereses / mandatos de inversión / 
+            </h4>
           </div>
         </div>
       </section>
@@ -173,8 +196,9 @@ export default function Home() {
             text="¿Y ahora qué?"
             color="bg-red-500 text-white"  
             rotate="left"
+            className="mb-4"
           />
-          <p>Estamos diseñando la primera experiencia → </p>
+          <p>Estamos diseñando la primera experiencia: </p>
           <p>Más adelante les vamos a compartir más información</p>
         </div>
 
@@ -184,12 +208,11 @@ export default function Home() {
             → Gestión Patrimonial
           </h3>
           <div className="max-w-fill min-h-40 flex flex-col items-center justify-center relative">
-            <Image 
-              src="/images/arbol.png" 
+            <img 
+              src="/images/gestion-patrimonial.svg" 
               alt="alt"
-              width={120} 
-              height={0} 
-              className="w-100 max-w-fill h-auto mix-blend-multiply"
+              
+              className="max-w-fill h-auto mix-blend-multiply"
             />
           </div>
           <p>
