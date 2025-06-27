@@ -152,9 +152,11 @@ export default function Home() {
               className="z-10 ml-auto mr-12"
             />
           </div>
-          <h3 className="col-span-2 text-2xl">
-            gestión patrimonial / adaptabilidad / comunicación asertiva / construcción de acuerdos / roles de directorio / conciencia negociación / emocional / creatividad / gestión riesgos / empatía / escucha activa / humildad cognitiva / gobernanza / liderazgo colaborativo / propósito y creación de valor / mentalidad infinita / gestión de la incertidumbre / diseño de portfolio / pensamiento sistémico / elección asesores / mandatos de inversión / objetivos financieros / estructura family office / manejo de expectativas
-          </h3>
+          <div className="col-span-2 border-t border-gray-200">
+            <h3>
+              gestión patrimonial / adaptabilidad / comunicación asertiva / construcción de acuerdos / roles de directorio / conciencia negociación / emocional / creatividad / gestión riesgos / empatía / escucha activa / humildad cognitiva / gobernanza / liderazgo colaborativo / propósito y creación de valor / mentalidad infinita / gestión de la incertidumbre / diseño de portfolio / pensamiento sistémico / elección asesores / mandatos de inversión / objetivos financieros / estructura family office / manejo de expectativas
+            </h3>
+          </div>
         </div>
       </section>
 
