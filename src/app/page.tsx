@@ -129,7 +129,7 @@ export default function Home() {
           <Card
             title="Experiencias"
             image="/images/experiencias.png"
-            description="Diseñadas por referentes para despertar miradas, preguntas y curiosidad que generen movimiento."
+            description="Diseñadas para despertar miradas, preguntas y curiosidad que generen movimiento."
           />
           <Card
             title="Pertenencia"
