@@ -200,7 +200,7 @@ export default function Home() {
             className="mb-4"
           />
           <p>Estamos diseñando la primera experiencia: </p>
-          <p>Más adelante les vamos a compartir más información</p>
+          {/* <p>Más adelante les vamos a compartir más información</p> */}
         </div>
 
         <div className="border border-gray-500 rounded-3xl p-6 flex flex-col gap-4">
@@ -208,25 +208,24 @@ export default function Home() {
             [Bootcamp #1] <br/>
             → Gestión Patrimonial
           </h3>
-          <div className="max-w-fill min-h-40 flex flex-col items-center justify-center relative">
+          <div className="max-w-fill min-h-40 grow flex flex-col items-end justify-end relative">
             <img 
-              src="/images/gestion-patrimonial.svg" 
+              src="/images/gestion-patrimonial.png" 
               alt="alt"
-              
-              className="max-w-fill h-auto mix-blend-multiply"
+              className="w-[240px] h-auto mix-blend-multiply"
             />
           </div>
-          <p>
-            Tomar decisiones también implica saber negociar: con otros, con uno mismo, y con el contexto.
+          <p className="text-base/5 pb-2">
+            miradas - conversaciones - movimiento - decisiones
           </p>
           <div className="space-y-2">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
-              <p className="text-gray-700">Septiembre - Octubre</p>
+              <p>Septiembre - Octubre</p>
             </div>
             <div className="flex items-center gap-2">
               <Pin className="w-4 h-4" />
-              <p className="text-gray-700">3 encuentros: 1 presencial + 2 virtuales</p>
+              <p>1 encuentro virtual + 1 encuentro presencial</p>
             </div>
           </div>
         </div>

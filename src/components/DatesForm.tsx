@@ -31,7 +31,9 @@ export default function DatesForm() {
 
   return (
     <div className="w-full flex flex-col space-y-4 rounded-3xl p-6 bg-[#F2EEE1]">
-      <h4 className='leading-none'>Coordinemos fechas:</h4>
+      <p className='leading-none text-2xl'>
+        Se viene más info.<br/> Mientras, definamos fechas:
+      </p>
       {!submitted ? (
         <form onSubmit={handleSubmit} className="space-y-5 flex flex-col grow">
         
