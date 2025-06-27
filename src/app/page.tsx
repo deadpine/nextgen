@@ -96,12 +96,14 @@ export default function Home() {
             </div>
           </div>
           <Card
+            number="01/"
             title="Bootcamps"
             image="/images/bootcamps.png"
             description="para seguir profundizando en lo compartido y activar habilidades en torno a cómo gestionarlo"
             participants="Equipo de primos"
           />
           <Card
+            number="02/"
             title="Skill labs"
             image="/images/skill-labs.png"
             description="para romper esquemas, desafiar perspectivas, provocar ideas y ganar herramientas"

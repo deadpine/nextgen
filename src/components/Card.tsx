@@ -6,15 +6,20 @@ interface CardProps {
   image: string;
   description: string;
   participants?: string;
+  number?: string;
 }
 
-export default function Card({ title, image, description, participants }: CardProps) {
+export default function Card({ title, image, description, participants, number }: CardProps) {
   return (
     <div className="overflow-hidden w-full flex flex-col gap-1 pt-6 border-t border-gray-200">
-      
-      <Image src="/images/ic-arrow-down.svg" alt="Arrow down" width={20} height={20} />
-      <h2>{title}</h2>
-
+      <div>
+        {number !== undefined && number !== null ? (
+          <h2>{number}</h2>
+        ) : (
+          <Image src="/images/ic-arrow-down.svg" alt="Arrow down" width={22} height={22} />
+        )}
+        <h2>{title}</h2>
+      </div>
       <div className="w-full min-h-64 flex flex-col items-center justify-center relative">
         <Image 
           src={image} 
