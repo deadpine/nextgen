@@ -4,6 +4,7 @@ import { Calendar, Pin } from "lucide-react"
 import Image from "next/image";
 import DatesForm from "@/components/DatesForm";
 import Tag from "@/components/Tag";
+import Para from "@/components/Para";
 
 export default function Home() {
   return (
@@ -44,18 +45,9 @@ export default function Home() {
             </div>
             <div>
               <p className="text-green-600 pb-3">¿Para qué?</p>
-              <h3 className="pb-4 md:pb-0 ">
-                <i className="pr-2 font-light text-gray-500">para</i>
-                tomar decisiones conscientes
-              </h3>
-              <h3 className="pb-4 md:pb-0 ">
-                <i className="pr-2 font-light text-gray-500">para</i>
-                construir identidad en contexto
-              </h3>
-              <h3>
-                <i className="pr-2 font-light text-gray-500">para</i>
-                potenciar vínculos basados en retos compartidos
-              </h3>
+              <Para text="tomar decisiones conscientes" />
+              <Para text="construir identidad en contexto" />
+              <Para text="potenciar vínculos basados en retos compartidos" />
             </div>
           </div>
         </div>
