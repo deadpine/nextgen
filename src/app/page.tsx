@@ -43,9 +43,9 @@ export default function Home() {
             height={0} 
             className="h-auto mix-blend-multiply hidden md:block"
           />
-          <div className="col-span-2 space-y-12 flex flex-col items-center">
+          <div className="col-span-2 space-y-14 md:space-y-12 flex flex-col items-center">
             <div className="w-full pr-4 md:pr-0">
-              <p className="text-green-600 pb-3">¿Qué proponemos?</p>
+              <p className="text-green-600 font-semibold md:font-medium pb-5 md:pb-3">¿Qué proponemos?</p>
               <h3>experiencias de aprendizaje diseñadas a medida</h3>
             </div>
             <Image 
@@ -56,7 +56,7 @@ export default function Home() {
               className="max-w-[14rem] pb-5 h-auto mix-blend-multiply block md:hidden"
             />
             <div className="w-full">
-              <p className="text-green-600 pb-3">¿Para qué?</p>
+              <p className="text-green-600 font-semibold md:font-medium pb-5 md:pb-3">¿Para qué?</p>
               <Para text="tomar decisiones conscientes" />
               <Para text="construir identidad en contexto" />
               <Para text="potenciar vínculos basados en retos compartidos" />
@@ -68,11 +68,11 @@ export default function Home() {
       <section>
         <div className="flex flex-col md:flex-row gap-12 md:gap-6">
           <div className="w-full flex flex-col justify-between">
-            <p className="text-gray-500 pb-4">
+            <p className="md:text-gray-600 pb-4">
               ¿Cómo? <br/>
               Mediante dos formatos complementarios:
             </p>
-            <div className="hidden md:flex flex-col justify-end grow">
+            <div className="flex flex-col justify-end grow pt-6">
               <Tag 
                 text="anclaje en desafíos reales"
                 color="bg-green-500 text-white" 
@@ -110,28 +110,6 @@ export default function Home() {
             participants="Equipo de primos + Invitados"
           />
         </div>
-        <div className="flex flex-col items-center pt-22 md:hidden">
-          <Tag 
-            text="anclaje en desafíos reales"
-            color="bg-green-500 text-white" 
-            rotate="left"
-          />
-          <Tag 
-            text="material curado disponible 24/7"
-            color="bg-green-100" 
-            rotate="2deg"
-          />
-          <Tag 
-            text="espacios virtuales"
-            color="bg-cream-100 text-green-500 border border-green-500" 
-            rotate="left"
-          />
-          <Tag 
-            text="encuentros presenciales"
-            color="bg-red-500 text-white" 
-            rotate="1deg"
-          />
-        </div>
       </section>
 
       <Divider 
@@ -140,7 +118,7 @@ export default function Home() {
       />
 
       <section>
-        <p className="text-gray-500 pb-12">¿Qué van a encontrar?</p>
+        <p className="md:text-gray-600 pb-12">¿Qué van a encontrar?</p>
 
         <div className="flex flex-col md:flex-row gap-12 md:gap-6">
           <Card
