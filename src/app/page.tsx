@@ -212,7 +212,7 @@ export default function Home() {
             <img 
               src="/images/gestion-patrimonial.png" 
               alt="alt"
-              className="w-[240px] h-auto mix-blend-multiply"
+              className="w-[230px] h-auto mix-blend-multiply"
             />
           </div>
           <p className="text-base/5 pb-2">
