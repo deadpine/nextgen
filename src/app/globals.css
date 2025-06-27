@@ -46,7 +46,7 @@
     @apply text-[1.9rem]/[36px] md:text-[2rem]/10 font-normal;
   }
   h4 {
-    @apply text-xl/[33px] md:text-[1.8rem]/[36px] font-normal;
+    @apply text-xl/[33px] md:text-[1.7rem]/[38px] font-normal;
   }
   p, label {
     @apply text-base/5 md:text-[0.9rem]/5;
