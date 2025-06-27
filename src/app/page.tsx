@@ -113,7 +113,8 @@ export default function Home() {
       />
 
       <section>
-        <p>¿Qué van a encontrar?</p>
+        <p className="text-gray-500 pb-12">¿Qué van a encontrar?</p>
+
         <div className="flex flex-col md:flex-row gap-12 md:gap-6">
           <Card
             title="Herramientas"
