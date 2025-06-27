@@ -1,11 +1,11 @@
 interface TagProps {
   text: string;
-  className?: string;
+  color?: string;
 }
 
-export default function Tag({ text }: TagProps) {
+export default function Tag({ text, color = "bg-green-500 text-white"  }: TagProps) {
   return (
-    <p className="w-fit text-sm font-medium px-5 py-2 bg-green-500 text-white">
+    <p className={`w-fit px-4 py-2 text-sm font-medium tracking-tight ${color}`}>
       {text}
     </p>
   );

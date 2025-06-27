@@ -70,10 +70,22 @@ export default function Home() {
             <p>¿Cómo?</p>
             <p>Mediante dos formatos complementarios:</p>
             <div className="flex flex-col justify-end grow">
-              <Tag text="anclaje en desafíos reales" />
-              <Tag text="material curado disponible 24/7" />
-              <Tag text="espacios virtuales" />
-              <Tag text="encuentros presenciales"/>
+              <Tag 
+                color="bg-green-500 text-white" 
+                text="anclaje en desafíos reales"
+              />
+              <Tag 
+                color="bg-green-100" 
+                text="material curado disponible 24/7"
+              />
+              <Tag 
+                color="bg-cream-100 text-green-500 border border-green-500" 
+                text="espacios virtuales"
+              />
+              <Tag 
+                color="bg-red-500 text-white" 
+                text="encuentros presenciales"
+              />
             </div>
           </div>
           <Card
@@ -118,7 +130,7 @@ export default function Home() {
         <div className="grid md:grid-cols-3 gap-6 pt-40">
           <div>
             <Tag text="Habilidades" />
-            <Tag text="Herramientas" />
+            <Tag color="bg-green-100"  text="Herramientas" />
             <Image 
               src="/images/circles.png"
               alt="concentric circles illustration"  
@@ -141,7 +153,7 @@ export default function Home() {
       <section className="grid md:grid-cols-3 gap-6">
         
         <div>
-          <Tag text="¿Y ahora qué?" />
+          <Tag color="bg-red-500 text-white" text="¿Y ahora qué?" />
           <p>Estamos diseñando la primera experiencia → </p>
           <p>Más adelante les vamos a compartir más información</p>
         </div>
