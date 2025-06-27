@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center sm:items-start bg-cream-100 space-y-10">
       
-      <section className="grid md:grid-cols-2 gap-5 items-center">
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
         <div>
           <p className="text-lg font-medium text-cream-400 line-through">
             Onboarding
@@ -34,7 +34,7 @@ export default function Home() {
       </section>
 
       <div className="w-full py-32 px-5 bg-green-100">
-        <div className='max-w-7xl mx-auto grid md:grid-cols-3 gap-6 items-center'>
+        <div className='max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 items-center'>
           <Image 
             src="/images/arbol.png" 
             alt="Arrow down" 
@@ -156,7 +156,7 @@ export default function Home() {
             description="Espacios de aprendizaje compartidos para potenciar el equipo de primos y generar comunidad con pares."
           />
         </div>
-        <div className="grid md:grid-cols-3 gap-6 pt-40">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-40">
           <div className="w-full h-full pl-8 pr-12 pt-4 flex flex-col justify-center">
             <Tag
               text="Habilidades"
@@ -189,7 +189,7 @@ export default function Home() {
         quote="[Cuando las ideas se cruzan con miradas distintas, el aprendizaje se vuelve real y aparece el valor]"
       />
 
-      <section className="grid md:grid-cols-3 gap-6">
+      <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
         
         <div>
           <Tag 
