@@ -37,7 +37,7 @@
     @apply antialiased text-gray-900;
   }
   h1 {
-    @apply text-[2.5rem]/11 font-normal text-gray-900;
+    @apply text-[2.5rem] leading-none font-normal text-gray-900;
   }
   h2 {
     @apply text-[2.25rem]/10 font-normal;

@@ -10,11 +10,15 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center sm:items-start bg-cream-100 space-y-10">
       
-      <section className="flex flex-col md:flex-row gap-6 items-center">
-        <div className="pb-4">
-          <p>Onboarding</p>
-          <p>→ Unlock</p>
-          <h1 className="py-10">
+      <section className="grid md:grid-cols-2 gap-5 items-center">
+        <div>
+          <p className="text-lg font-medium text-cream-400 line-through">
+            Onboarding
+          </p>
+          <p className="text-lg font-medium text-green-500 ">
+            → Unlock: <i>el contexto puede ser impulso</i>
+          </p>
+          <h1 className="py-12">
             próxima etapa:<br/>
             equipo de primos como 
             <span className="pl-2 underline decoration-3 underline-offset-3">next gen</span>
@@ -22,10 +26,10 @@ export default function Home() {
         </div>
         <Image 
           src="/images/hero.png" 
-          alt="Arrow down" 
+          alt="cuatro personas caminando juntas" 
           width={500} 
           height={0} 
-          className="w-100 max-w-fill h-auto"
+          className="w-120 max-w-fill h-auto mx-auto"
         />
       </section>
 
