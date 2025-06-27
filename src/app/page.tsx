@@ -203,7 +203,7 @@ export default function Home() {
             </div>
             <div className="flex items-center gap-2">
               <Pin className="w-4 h-4" />
-              <p>1 encuentro virtual + 1 encuentro presencial</p>
+              <p>Encuentros: 1 virtual + 1 presencial</p>
             </div>
           </div>
         </div>
