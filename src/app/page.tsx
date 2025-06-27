@@ -5,6 +5,39 @@ import Image from "next/image";
 import DatesForm from "@/components/DatesForm";
 import Tag from "@/components/Tag";
 import Para from "@/components/Para";
+import Habilidades from '@/components/Habilidades'
+
+const skills = [
+  'gestión patrimonial',
+  'adaptabilidad',
+  'comunicación asertiva',
+  'construcción de acuerdos',
+  'roles de directorio',
+  'negociación',
+  'conciencia emocional',
+  'creatividad',
+  'gestión riesgos',
+  'escucha activa',
+  'humildad cognitiva',
+  'gobernanza',
+  'antifragilidad',
+  'propósito y creación de valor',
+  'mentalidad infinita',
+  'gestión de la incertidumbre',
+  'sesgos',
+  'diseño de portfolio',
+  'pensamiento sistémico',
+  'elección asesores',
+  'objetivos financieros',
+  'empatía',
+  'estructura family office',
+  'estrategia',
+  'manejo de expectativas',
+  'storytelling',
+  'incentivos e intereses',
+  'mandatos de inversión',
+  'liderazgo colaborativo',
+]
 
 export default function Home() {
   return (
@@ -57,7 +90,7 @@ export default function Home() {
             <div className="w-full">
               <p className="text-green-600 pb-3">¿Para qué?</p>
               <Para text="tomar decisiones conscientes" />
-              <Para text="construir identidad en contexto" />
+              <Para text="construir identidad" />
               <Para text="potenciar vínculos basados en retos compartidos" />
             </div>
           </div>
@@ -148,7 +181,7 @@ export default function Home() {
           <Card
             title="Experiencias"
             image="/images/experiencias.png"
-            description="Diseñadas por referentes para despertar miradas, preguntas y curiosidad que generen movimiento."
+            description="Diseñadas para despertar miradas, preguntas y curiosidad que generen movimiento."
           />
           <Card
             title="Pertenencia"
@@ -177,9 +210,7 @@ export default function Home() {
             />
           </div>
           <div className="col-span-2 border-t border-gray-200 pt-8">
-            <h4>
-              gestión patrimonial / adaptabilidad / comunicación asertiva / construcción de acuerdos / roles de directorio / negociación / conciencia emocional / creatividad / gestión riesgos / empatía / escucha activa / humildad cognitiva / gobernanza / antifragilidad / liderazgo colaborativo / propósito y creación de valor / mentalidad infinita / gestión de la incertidumbre / sesgos / diseño de portfolio / pensamiento sistémico / elección asesores / objetivos financieros / estructura family office / estrategia / manejo de expectativas / storytelling / incentivos e intereses / mandatos de inversión / 
-            </h4>
+            <Habilidades items={skills} />
           </div>
         </div>
       </section>
