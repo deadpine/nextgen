@@ -71,20 +71,24 @@ export default function Home() {
             <p>Mediante dos formatos complementarios:</p>
             <div className="flex flex-col justify-end grow">
               <Tag 
-                color="bg-green-500 text-white" 
                 text="anclaje en desafíos reales"
+                color="bg-green-500 text-white" 
+                rotate="left"
               />
               <Tag 
-                color="bg-green-100" 
                 text="material curado disponible 24/7"
+                color="bg-green-100" 
+                rotate="2deg"
               />
               <Tag 
-                color="bg-cream-100 text-green-500 border border-green-500" 
                 text="espacios virtuales"
+                color="bg-cream-100 text-green-500 border border-green-500" 
+                rotate="left"
               />
               <Tag 
-                color="bg-red-500 text-white" 
                 text="encuentros presenciales"
+                color="bg-red-500 text-white" 
+                rotate="1deg"
               />
             </div>
           </div>
@@ -128,15 +132,24 @@ export default function Home() {
           />
         </div>
         <div className="grid md:grid-cols-3 gap-6 pt-40">
-          <div>
-            <Tag text="Habilidades" />
-            <Tag color="bg-green-100"  text="Herramientas" />
-            <Image 
+          <div className="w-full h-full pr-10 flex flex-col">
+            <Tag
+              text="Habilidades"
+              rotate="left"
+              className="z-10"
+            />          
+            <Image
               src="/images/circles.png"
-              alt="concentric circles illustration"  
-              width={240} 
-              height={0} 
-              className="h-auto"
+              alt="concentric circles illustration"
+              width={310} 
+              height={310} 
+              className="-my-10"
+            />
+            <Tag
+              text="Herramientas"
+              color="bg-green-100"
+              rotate="right"
+              className="z-10 ml-auto mr-12"
             />
           </div>
           <h3 className="col-span-2 text-2xl">
@@ -153,7 +166,11 @@ export default function Home() {
       <section className="grid md:grid-cols-3 gap-6">
         
         <div>
-          <Tag color="bg-red-500 text-white" text="¿Y ahora qué?" />
+          <Tag 
+            text="¿Y ahora qué?"
+            color="bg-red-500 text-white"  
+            rotate="left"
+          />
           <p>Estamos diseñando la primera experiencia → </p>
           <p>Más adelante les vamos a compartir más información</p>
         </div>
