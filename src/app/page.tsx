@@ -58,7 +58,7 @@ export default function Home() {
             <div className="w-full">
               <p className="text-green-600 font-semibold md:font-medium pb-5 md:pb-3">¿Para qué?</p>
               <Para text="tomar decisiones conscientes" />
-              <Para text="construir identidad en contexto" />
+              <Para text="construir identidad" />
               <Para text="potenciar vínculos basados en retos compartidos" />
             </div>
           </div>
