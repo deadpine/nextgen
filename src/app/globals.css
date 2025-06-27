@@ -43,7 +43,7 @@
     @apply text-[2.25rem]/10 font-normal;
   }
   h3 {
-    @apply text-[2rem]/10 font-normal;
+    @apply text-[1.9rem]/[36px] md:text-[2rem]/10 font-normal;
   }
   h4 {
     @apply text-[1.75rem] font-normal;

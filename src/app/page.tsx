@@ -44,11 +44,11 @@ export default function Home() {
             </div>
             <div>
               <p className="text-green-600 pb-3">¿Para qué?</p>
-              <h3>
+              <h3 className="pb-4 md:pb-0 ">
                 <i className="pr-2 font-light text-gray-500">para</i>
                 tomar decisiones conscientes
               </h3>
-              <h3>
+              <h3 className="pb-4 md:pb-0 ">
                 <i className="pr-2 font-light text-gray-500">para</i>
                 construir identidad en contexto
               </h3>
@@ -62,7 +62,7 @@ export default function Home() {
       </div>
       
       <section>
-        <div className="flex flex-col md:flex-row  gap-6">
+        <div className="flex flex-col md:flex-row gap-12 md:gap-6">
           <div className="w-full flex flex-col justify-between">
             <p>¿Cómo?</p>
             <p>Mediante dos formatos complementarios:</p>
@@ -95,7 +95,7 @@ export default function Home() {
 
       <section>
         <p>¿Qué van a encontrar?</p>
-        <div className="flex flex-col md:flex-row  gap-6">
+        <div className="flex flex-col md:flex-row gap-12 md:gap-6">
           <Card
             title="Herramientas"
             image="/images/herramientas.png"
@@ -124,7 +124,7 @@ export default function Home() {
               className="h-auto"
             />
           </div>
-          <h3 className="col-span-2">
+          <h3 className="col-span-2 text-2xl">
             gestión patrimonial / adaptabilidad / comunicación asertiva / construcción de acuerdos / roles de directorio / conciencia negociación / emocional / creatividad / gestión riesgos / empatía / escucha activa / humildad cognitiva / gobernanza / liderazgo colaborativo / propósito y creación de valor / mentalidad infinita / gestión de la incertidumbre / diseño de portfolio / pensamiento sistémico / elección asesores / mandatos de inversión / objetivos financieros / estructura family office / manejo de expectativas
           </h3>
         </div>
