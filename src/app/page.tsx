@@ -97,13 +97,13 @@ export default function Home() {
           <Card
             title="Bootcamps"
             image="/images/bootcamps.png"
-            description="Para seguir profundizando en lo compartido y activar habilidades en torno a cómo gestionarlo"
+            description="para seguir profundizando en lo compartido y activar habilidades en torno a cómo gestionarlo"
             participants="Equipo de primos"
           />
           <Card
             title="Skill labs"
             image="/images/skill-labs.png"
-            description="Para romper esquemas, desafiar perspectivas, provocar ideas y ganar herramientas"
+            description="para romper esquemas, desafiar perspectivas, provocar ideas y ganar herramientas"
             participants="Equipo de primos + Invitados"
           />
         </div>
