@@ -177,8 +177,8 @@ export default function Home() {
             />
           </div>
           <div className="col-span-2 border-t border-gray-200 pt-8">
-            <h4>
-            gestión patrimonial / adaptabilidad / comunicación asertiva / construcción de acuerdos / roles de directorio / negociación / conciencia emocional / creatividad / gestión riesgos / empatía / escucha activa / humildad cognitiva / gobernanza / antifragilidad / liderazgo colaborativo / propósito y creación de valor / mentalidad infinita / gestión de la incertidumbre / sesgos / diseño de portfolio / pensamiento sistémico / elección asesores / objetivos financieros / estructura family office / estrategia / manejo de expectativas / storytelling / incentivos e intereses / mandatos de inversión / 
+            <h4 className="text-justify md:text-left">
+              gestión patrimonial / adaptabilidad / comunicación asertiva / construcción de acuerdos / roles de directorio / negociación / conciencia emocional / creatividad / gestión riesgos / empatía / escucha activa / humildad cognitiva / gobernanza / antifragilidad / liderazgo colaborativo / propósito y creación de valor / mentalidad infinita / gestión de la incertidumbre / sesgos / diseño de portfolio / pensamiento sistémico / elección asesores / objetivos financieros / estructura family office / estrategia / manejo de expectativas / storytelling / incentivos e intereses / mandatos de inversión / 
             </h4>
           </div>
         </div>
