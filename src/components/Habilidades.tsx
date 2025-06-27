@@ -15,7 +15,7 @@ export default function Habilidades() {
       <span className="text-gray-200 pr-1 pl-2">/</span> humildad cognitiva 
       <span className="text-gray-200 pr-1 pl-2">/</span> gobernanza 
       <span className="text-gray-200 pr-1 pl-2">/</span> antifragilidad 
-      <span className="text-gray-200 pr-1 pl-2">/</span> propósito y creación de valor 
+      <span className="text-gray-200 pr-1 pl-2">/</span> creación de valor 
       <span className="text-gray-200 pr-1 pl-2">/</span> mentalidad infinita 
       <span className="text-gray-200 pr-1 pl-2">/</span> gestión de la incertidumbre 
       <span className="text-gray-200 pr-1 pl-2">/</span> sesgos 
