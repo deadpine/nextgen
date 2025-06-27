@@ -156,7 +156,7 @@ export default function Home() {
             description="Espacios de aprendizaje compartidos para potenciar el equipo de primos y generar comunidad con pares."
           />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-40">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-20 md:pt-40">
           <div className="w-full h-full pl-8 pr-12 pt-4 flex flex-col justify-center">
             <Tag
               text="Habilidades"
