@@ -29,6 +29,7 @@
   --color-gray-500: #616B63;
   --color-gray-600: #4D554F;
   --color-gray-700: #383E3A;
+  --color-gray-700: #262927;
   --color-gray-900: #141414;
 }
 
@@ -49,7 +50,7 @@
     @apply text-xl/[33px] md:text-[1.7rem]/[38px] font-normal;
   }
   p, label {
-    @apply text-gray-800 text-base/[21px] ;
+    @apply text-gray-700 text-base/[21px] ;
     /* md:text-[15px]/[22px]; */
   }
   section {

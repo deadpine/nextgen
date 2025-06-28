@@ -6,10 +6,11 @@ interface CardProps {
   image: string
   number?: string
   participants?: string
+  imgClass?: string
   children?: React.ReactNode
 }
 
-export default function Card({ title, image, number, participants, children }: CardProps) {
+export default function Card({ title, image, number, participants, children, imgClass }: CardProps) {
   return (
     <div className="w-full flex flex-col gap-1 pt-6 border-t border-gray-200 overflow-hidden">
       <div>
@@ -21,13 +22,13 @@ export default function Card({ title, image, number, participants, children }: C
         <h2>{title}</h2>
       </div>
 
-      <div className="w-full min-h-60 flex flex-col items-center justify-center relative">
+      <div className="w-full min-h-50 md:min-h-60 flex flex-col items-center justify-center relative">
         <Image
           src={image}
           alt={image}
           width={120}
-          height={0}
-          className="h-auto mix-blend-multiply"
+          height={120}
+          className={`h-auto mix-blend-multiply ${imgClass}`}
         />
       </div>
 

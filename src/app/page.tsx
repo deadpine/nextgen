@@ -99,17 +99,19 @@ export default function Home() {
             number="01/"
             title="Bootcamps"
             image="/images/bootcamps.png"
+            imgClass="w-42 absolute -top-8 right-0 md:right-6"
             participants="Equipo de primos"
           >
-            <p className="pr-6">para seguir profundizando en lo compartido y activar habilidades en torno a cómo gestionarlo</p>
+            <p className="md:pr-6">para seguir profundizando en lo compartido y activar habilidades en torno a cómo gestionarlo</p>
           </Card>
           <Card
             number="02/"
             title="Skill labs"
             image="/images/skill-labs.png"
+            imgClass="w-42 absolute -top-8 right-0 md:right-6"
             participants="Equipo de primos + Invitados"
           >
-            <p className="pr-6">para romper esquemas, desafiar perspectivas, provocar ideas y ganar herramientas incertidumbre</p>
+            <p className="md:pr-6">para romper esquemas, desafiar perspectivas, provocar ideas y ganar herramientas incertidumbre</p>
           </Card>
         </div>
       </section>
@@ -126,20 +128,21 @@ export default function Home() {
           <Card
             title="Herramientas"
             image="/images/herramientas.png"
+            imgClass=""
           >
-            <p className="pr-6">Contenido personalizado, anclado en desafíos reales, para leer contextos y <u>decidir cómo y cuándo involucrarse</u></p>
+            <p className="md:pr-6">Contenido personalizado, anclado en desafíos reales, para leer contextos y <u>decidir cómo y cuándo involucrarse</u></p>
           </Card>
           <Card
             title="Experiencias"
             image="/images/experiencias.png"
           >
-            <p className="pr-6">Diseñadas para <u>despertar miradas, preguntas y curiosidad</u> que generen movimiento</p>
+            <p className="md:pr-6">Diseñadas para <u>despertar miradas, preguntas y curiosidad</u> que generen movimiento</p>
           </Card>
           <Card
             title="Pertenencia"
             image="/images/pertenencia.png"
           >
-            <p className="pr-6">Espacios de aprendizaje compartidos para <u>potenciar el equipo de primos y generar comunidad</u> con pares</p>
+            <p className="md:pr-6">Espacios de aprendizaje compartidos para <u>potenciar el equipo de primos y generar comunidad</u> con pares</p>
           </Card>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-20 md:pt-40">
