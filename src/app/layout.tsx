@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NextGen",
-  description: "Comienza una nueva etapa: equipo de primos como next gen",
+  title: "Unlock",
+  description: "equipo de primos como next gen",
 };
 
 export default function RootLayout({
