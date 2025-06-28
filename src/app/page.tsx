@@ -145,8 +145,8 @@ export default function Home() {
             <p className="md:pr-6">Espacios de aprendizaje compartidos para <u>potenciar el equipo de primos y generar comunidad</u> con pares</p>
           </Card>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-20 md:pt-40">
-          <div className="w-full h-full pl-8 pr-12 pt-4 flex flex-col justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-y-6 md:gap-6 pt-20 md:pt-40">
+          <div className="w-full h-full pl-8 pr-12 py-4 flex flex-col justify-center">
             <Tag
               text="Habilidades"
               className="z-10 ml-3 -rotate-5"
