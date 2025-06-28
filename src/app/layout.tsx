@@ -15,6 +15,18 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Unlock",
   description: "equipo de primos como next gen",
+  openGraph: {
+    title: 'Unlock',
+    description: 'equipo de primos como next gen',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 675,
+        alt: '4 personas caminando juntas',
+      },
+    ],
+  }
 };
 
 export default function RootLayout({
