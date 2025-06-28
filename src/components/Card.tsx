@@ -1,41 +1,44 @@
-import Image from 'next/image';
-import { Users } from "lucide-react"
+import Image from 'next/image'
+import { Users } from 'lucide-react'
 
 interface CardProps {
-  title: string;
-  image: string;
-  description: string;
-  participants?: string;
-  number?: string;
+  title: string
+  image: string
+  number?: string
+  participants?: string
+  children?: React.ReactNode
 }
 
-export default function Card({ title, image, description, participants, number }: CardProps) {
+export default function Card({ title, image, number, participants, children }: CardProps) {
   return (
-    <div className="overflow-hidden w-full flex flex-col gap-1 pt-6 border-t border-gray-200">
+    <div className="w-full flex flex-col gap-1 pt-6 border-t border-gray-200 overflow-hidden">
       <div>
-        {number !== undefined && number !== null ? (
+        {number !== undefined ? (
           <h2>{number}</h2>
         ) : (
           <Image src="/images/ic-arrow-down.svg" alt="Arrow down" width={22} height={22} />
         )}
         <h2>{title}</h2>
       </div>
-      <div className="w-full min-h-64 flex flex-col items-center justify-center relative">
-        <Image 
-          src={image} 
-          alt={image}  
-          width={120} 
-          height={0} 
+
+      <div className="w-full min-h-60 flex flex-col items-center justify-center relative">
+        <Image
+          src={image}
+          alt={image}
+          width={120}
+          height={0}
           className="h-auto mix-blend-multiply"
         />
       </div>
-      <p>{description}</p>
+
+      {children && <div>{children}</div>}
+
       {participants && (
-        <div className="flex items-center gap-2 text-green-500 pt-3">
+        <div className="flex items-center gap-3 text-green-500 pt-3">
           <Users className="w-3.5 h-3.5" />
           <p className="text-green-500">{participants}</p>
         </div>
       )}
     </div>
-  );
-} 
+  )
+}
