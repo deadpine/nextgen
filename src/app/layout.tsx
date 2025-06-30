@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: 'equipo de primos como next gen',
     images: [
       {
-        url: '/og-image.png',
+        url: 'https://unlockng.puertoasis.com/images/og-image.jpg',
         width: 1200,
         height: 675,
         alt: '4 personas caminando juntas',
