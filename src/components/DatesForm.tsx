@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Tag from './Tag'
 
 export default function DatesForm() {
   const [submitted, setSubmitted] = useState(false)
@@ -36,7 +37,6 @@ export default function DatesForm() {
       </p>
       {!submitted ? (
         <form onSubmit={handleSubmit} className="space-y-5 flex flex-col grow">
-        
           <label htmlFor="nombre" className="block mb-2 text-gray-900">
             Tu nombre
           </label>
@@ -69,9 +69,12 @@ export default function DatesForm() {
           </button>
         </form>
       ) : (
-        <p className="text-green-700 text-lg font-medium">
-          ¡Gracias!
-        </p>
+        <div className='flex grow items-center justify-center py-12 md:py-0'>
+          <Tag
+            text="¡Gracias!"
+            rotate="left"
+          /> 
+        </div>
       )}
     </div>
   )
