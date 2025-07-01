@@ -196,6 +196,8 @@ export default function Home() {
             <Image 
               src="/images/gestion-patrimonial.png" 
               alt="alt"
+              width={230} 
+              height={230} 
               className="w-[230px] h-auto mix-blend-multiply"
             />
           </div>
