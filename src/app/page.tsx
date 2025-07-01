@@ -170,8 +170,8 @@ export default function Home() {
         </div>
       </section>
 
-      <Divider bgColor="bg-green-100">
-        [Cuando <span className="underline decoration-2 underline-offset-4">las ideas se cruzan con miradas distintas</span>, el aprendizaje se vuelve real y aparece el valor]"
+      <Divider bgColor='bg-green-100'>
+        [Cuando <span className='underline decoration-2 underline-offset-4'>las ideas se cruzan con miradas distintas</span>, el aprendizaje se vuelve real y aparece el valor]"
       </Divider>
 
       <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -193,7 +193,7 @@ export default function Home() {
             → Gestión Patrimonial
           </h3>
           <div className="max-w-fill min-h-40 grow flex flex-col items-end justify-end relative">
-            <img 
+            <Image 
               src="/images/gestion-patrimonial.png" 
               alt="alt"
               className="w-[230px] h-auto mix-blend-multiply"
