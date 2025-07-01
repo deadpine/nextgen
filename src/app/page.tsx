@@ -68,31 +68,31 @@ export default function Home() {
       <section>
         <div className="flex flex-col md:flex-row gap-12 md:gap-6">
           <div className="w-full flex flex-col justify-between">
-            <p className="md:text-gray-600 pb-4">
-              ¿Cómo? <br/>
-              Mediante dos formatos complementarios:
-            </p>
-            <div className="flex flex-col justify-end grow pt-6">
-              <Tag 
-                text="anclaje en desafíos reales"
-                color="bg-green-500 text-white" 
-                rotate="left"
-              />
-              <Tag 
-                text="material curado disponible 24/7"
-                color="bg-green-100" 
-                rotate="2deg"
-              />
-              <Tag 
-                text="espacios virtuales"
-                color="bg-cream-100 text-green-500 border border-green-500" 
-                rotate="left"
-              />
-              <Tag 
-                text="encuentros presenciales"
-                color="bg-red-500 text-white" 
-                rotate="1deg"
-              />
+            <p className="md:text-gray-600">¿Cómo?</p>
+            <div className="grow flex md:flex-col flex-col-reverse justify-between gap-8">
+              <p className="md:text-gray-600 md:pb-4">Mediante dos formatos complementarios:</p>
+              <div className="flex flex-col justify-end grow pt-6">
+                <Tag 
+                  text="anclaje en desafíos reales"
+                  color="bg-green-500 text-white" 
+                  rotate="left"
+                />
+                <Tag 
+                  text="material curado disponible 24/7"
+                  color="bg-green-100" 
+                  rotate="2deg"
+                />
+                <Tag 
+                  text="espacios virtuales"
+                  color="bg-cream-100 text-green-500 border border-green-500" 
+                  rotate="left"
+                />
+                <Tag 
+                  text="encuentros presenciales"
+                  color="bg-red-500 text-white" 
+                  rotate="1deg"
+                />
+              </div>
             </div>
           </div>
           <Card
@@ -116,10 +116,9 @@ export default function Home() {
         </div>
       </section>
 
-      <Divider 
-        bgColor="bg-cream-300"
-        quote="[Lo importante no es saber todo, sino desarrollar las herramientas para crecer en cada rol que elijamos habitar]"
-      />
+      <Divider bgColor="bg-cream-300">
+        [Lo importante no es saber todo, sino desarrollar las herramientas para <span className="underline decoration-2 underline-offset-4">crecer en cada rol que elijamos habitar</span>]
+      </Divider>
 
       <section>
         <p className="md:text-gray-600 pb-12">¿Qué van a encontrar?</p>
@@ -171,10 +170,9 @@ export default function Home() {
         </div>
       </section>
 
-      <Divider 
-        bgColor="bg-green-100"
-        quote="[Cuando las ideas se cruzan con miradas distintas, el aprendizaje se vuelve real y aparece el valor]"
-      />
+      <Divider bgColor="bg-green-100">
+        [Cuando <span className="underline decoration-2 underline-offset-4">las ideas se cruzan con miradas distintas</span>, el aprendizaje se vuelve real y aparece el valor]"
+      </Divider>
 
       <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
         
