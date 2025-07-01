@@ -111,7 +111,7 @@ export default function Home() {
             imgClass="w-42 absolute -top-8 right-0 md:right-6"
             participants="Equipo de primos + Invitados"
           >
-            <p className="md:pr-6">para romper esquemas, desafiar perspectivas, provocar ideas y ganar herramientas incertidumbre</p>
+            <p className="md:pr-6">para romper esquemas, desafiar perspectivas, provocar ideas y ganar herramientas</p>
           </Card>
         </div>
       </section>
