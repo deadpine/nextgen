@@ -171,7 +171,7 @@ export default function Home() {
       </section>
 
       <Divider bgColor='bg-green-100'>
-        [Cuando <span className='underline decoration-2 underline-offset-4'>las ideas se cruzan con miradas distintas</span>, el aprendizaje se vuelve real y aparece el valor]"
+        [Cuando <span className='underline decoration-2 underline-offset-4'>las ideas se cruzan con miradas distintas</span>, el aprendizaje se vuelve real y aparece el valor]
       </Divider>
 
       <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
