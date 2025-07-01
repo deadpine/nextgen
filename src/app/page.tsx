@@ -38,7 +38,7 @@ export default function Home() {
         <div className='max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 items-center'>
           <Image 
             src="/images/arbol.png" 
-            alt="Arrow down" 
+            alt="tronco de arbol" 
             width={270} 
             height={0} 
             className="h-auto mix-blend-multiply hidden md:block"
@@ -152,7 +152,7 @@ export default function Home() {
             />          
             <Image
               src="/images/circles.png"
-              alt="concentric circles illustration"
+              alt="circulos concentricos"
               width={310} 
               height={310} 
               className="-my-10"
@@ -195,7 +195,7 @@ export default function Home() {
           <div className="max-w-fill min-h-40 grow flex flex-col items-end justify-end relative">
             <Image 
               src="/images/gestion-patrimonial.png" 
-              alt="alt"
+              alt="montaña con lineas topograficas"
               width={230} 
               height={230} 
               className="w-[230px] h-auto mix-blend-multiply"
